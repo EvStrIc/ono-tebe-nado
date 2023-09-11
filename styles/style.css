@@ -6,7 +6,7 @@
   display: grid;
   grid-template: 109px/597px 148fr 1fr;
   place-content: center space-between;
-  width: 1340px;
+  width: 100%;
 }
 
 .header__links-list {
@@ -42,3 +42,78 @@
   margin-bottom: 4px;
 }
 
+.cover {
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  margin-top: 96px;
+  margin-bottom: 180px;
+}
+
+.overlay {
+  background-color: rgb(0 0 0/0.6);
+  z-index: 1;
+}
+
+.cover__title {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: Raleway, sans-serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%;
+  text-transform: uppercase;
+  margin: 165px 50px 237px 50px;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 30px;
+}
+
+.aligned-text {
+  display: block;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+.cover__description {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.cover__description-text {
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  word-spacing: 20px;
+  margin: 147px 78px 62px 422px;
+}
+
+.bet-button {
+  color: #fff;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: transparent;
+  display: block;
+  padding: 12px 32px;
+  border: 1px solid #fff;
+  margin: 147px 50px 50px 78px;
+}
