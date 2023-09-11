@@ -44,3 +44,13 @@ address {
   font-weight: 400;
   line-height: 135%;
 }
+
+.phone-number {
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+
+.email {
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
