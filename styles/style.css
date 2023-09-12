@@ -278,11 +278,11 @@
 
 .footer {
   display: grid;
-  grid-template-rows: 1fr;
+  grid-template-rows: 97px;
   grid-template-columns: 1fr 149px 1fr;
-  justify-content: start;
+  row-gap: 356px;
+  place-content: start space-between;
   margin: 0 50px 90px;
-
 }
 
 .footer__menu-list {
@@ -311,13 +311,14 @@
 }
 
 .footer__social-list {
+  justify-self: end;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: start;
   list-style: none;
-  width: 240px;
   height: 48px;
+  width: 240px;
 }
 
 .footer__social-icon {
