@@ -1,5 +1,5 @@
 .header {
-  padding: 91px 80px 93px 51px;
+  padding: 91px 50px 93px 51px;
   display: grid;
   grid-template: 109px/1fr 148px 1fr;
   place-content: center space-between;
