@@ -55,9 +55,19 @@ address {
   border-bottom: 1px solid currentColor;
 }
 
+.phone-number:hover {
+  color: blue;
+  border-color: blue;
+}
+
 .email {
   text-decoration: none;
   border-bottom: 1px solid currentColor;
+}
+
+.email:hover {
+  color: blue;
+  border-color: blue;
 }
 
 .overlay {
